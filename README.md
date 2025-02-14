@@ -2,8 +2,11 @@
 AI-powered application that cleans up rough sketches for webtoon artists
 
 ### Assumptions
-- no structural lines
+- background is always the lightest
+- structural lines are always darker than the background but lighter than outlines
+- outline is always the darkest
 - no shading
+- there is only 3 colors: background, structural lines, and outlines
 ### Preprocess
 - convert to greyscale
 - bilateral filtering
